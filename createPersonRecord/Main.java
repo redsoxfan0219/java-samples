@@ -2,7 +2,7 @@ package edu.cscc;
 
 public class Main {
     public static void main(String[] args) {
-        //TODO Uncomment the following line of code AFTER you've created the PersonRecord, PersonName, Address, and PhoneNumber classes.
+
         PersonRecord personRecord = new PersonRecordBuilder().createTestRecord();
         PersonName name = personRecord.getName();
         Address address = personRecord.getAddress();
