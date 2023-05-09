@@ -5,7 +5,6 @@ public class PersonRecordBuilder {
     public PersonRecordBuilder() {
     }
 
-    //TODO Uncomment the following lines of code AFTER you've
     public PersonRecord createTestRecord() {
         Address address = new Address("120 North Tulip Tree Drive",
                 "Jackson", "OH", "45640");
